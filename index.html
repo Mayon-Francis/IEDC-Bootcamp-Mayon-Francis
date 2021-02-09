@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Expense Tracker</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    
+        <section class=".container">
+            <h2> Expense Tracker</h2>
+
+            <div id="showcase">
+                
+            </div>
+            <form id="myform" action="">
+
+                <label for="operation"> Select Operation</label>
+                <select name="operationType" id="operation">
+                    <option value="savings">Add Savings</option>
+                    <option value="expense">Add Expense</option>
+                </select>
+
+                <label for="amount"> Enter Amount</label>
+                <input class= "my-form input" type="text" id="myamount">
+
+                <input id="submit" class="btn" type="submit" value="Add">
+            </form>
+
+            <ul id="listout">
+
+            </ul>
+        </section>
+<script src="main.js"></script>
+</body>
+</html>
